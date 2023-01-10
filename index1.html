@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page-Lucas Simões</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Maven+Pro & display família= Montserrat:wght@900 &família= Open+Sans:ital,wght@0,400;0,700;1,400 & swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--<script language="javascript" src="repeticao02.js"></script>-->
+    <!--<script language="javascript" src="hr-dia.js"></script>-->
+    <script language="javascript">
+        function mudafoto(foto)
+{
+      document.getElementById("foto-skill").src = foto;}
+    /*onmouseout="mudafoto('./img/skill.svg')"*/
+    </script>
+    
+</head>
+<input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+<label class="close-menu-label" for="close-menu" tytle="close menu"></label>
+<body onload="carregar()" >
+    <aside class="menu white-bg">
+        <section class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#">LUCAS SIMÕES</a></h1>
+            <nav>
+                <Ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#apresentacao">Apresentação</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#conhecimentos">Conhecimentos</a></li>
+                    <li><a href="#portifolio">Portifólio</a></li>
+                    <li><a href="#Contato">Contato</a></li>
+                </Ul>
+
+            </nav>
+        </section>
+
+    </aside>
+ <section id="apresentacao"class="main-bg section">
+    <div class="main-content intro-content">
+        <div class="intro-text-content">
+         <h2>APRESENTAÇÃO</h2>
+         <p>Olá, eu me chamo  <strong><em>Lucas Simões</em></strong>, tenho 25 anos e sou estudante de <strong> Tecnologia</strong>.
+            Sou casado e hoje moro no Rio de Janeiro, cidade de Nova Iguaçu. 
+            Estou em transição de carreira. Pois Fui vendedor na área de Construção Civil durante 4 anos. 
+            Estou no 3º semestre de Analise e Desenvolvimento de sistemas.  Mas Tenho certificados em cursos extracurriculares pois quero estar cada vez mais capacitado para o mercado. 
+            Decidi entrar nessa área porque sempre fui apaixonado por Tecnologia e inovação. 
+            E hoje consigo enxergar esse nicho como meu futuro  e objetivo pessoal.   
+         </p>
+        </div>
+    
+         <div class="intro-img" ><img src="./img/pc-sentado.svg" alt="">
+
+         </div>
+    </div>
+ </section>
+ <section id="skill" class="white-bg section">
+    <div class="main-content intro-content">
+    <div class="main-content soft-content intro-text-content">
+        <h1>soft SKILLS</h1>
+        <ul>
+        <li onmouseover="mudafoto('./img/mente.svg')" onmouseout="mudafoto('./img/skill.svg')">Lógica de Programação</li>
+        <li>Determinado</li>
+        <li  onmouseover="mudafoto('./img/comunicacao.svg')" onmouseout="mudafoto('./img/skill.svg')" >Comunicativo</li>
+        <li  onmouseover="mudafoto('./img/criativo.svg')" onmouseout="mudafoto('./img/skill.svg')">Raciocínio Lógico</li>
+        <li onmouseover="mudafoto('./img/apresentacao.png')" onmouseout="mudafoto('./img/skill.svg')">Pensamento criativo</li>
+
+        </ul>
+    </div>
+    <div class="intro-img"><p>Passe o mouse sobre as Skills</p>  <img id="foto-skill"  src='./img/skill.svg' alt="">
+
+    </div>
+</div>
+ </section>
+ <section id="conhecimentos"class="main-bg section">
+    <div class="main-content intro-content">
+        <div class="conhecimento-content">
+         <h5>Conhecimentos<br>Certificações</h5>
+         <ul>
+            <h6>Linguagem de programação:</h6>
+            <li>Python- estruturado e orientado a 
+                    objetos;</li>
+                <li> C - Básico.</li>
+            </ul>
+            <ul><h6>Desenvolvimento web:</h6> 
+            <Li>React</Li>
+            <Li>Typescript</Li>
+            <Li>Javascript </Li>
+            <Li> HTML5 </Li>
+            <Li>CSS.</Li>
+            <Li>PHP – Interação com Banco de Dados 
+            e páginas dinâmicas</Li>
+        </ul>
+        <ul>
+            <h6>Banco de Dados:</h6> 
+            <li> PostgreSQL</Li>
+            <Li> MySQL.</Li>
+        </ul>
+        <ul>
+            <h6>Língua Estrangeira:</h6> 
+            <li>Inglês</li> <li> Conversação Básico</li> 
+            <li> Leitura técnica Intermediária</li></ul>
+        
+        </div>
+    
+         <div class="intro-img" ><img src="./img/conhecimentos.svg" alt="">
+
+         </div>
+    </div>
+ </section>
+ <section id="portifolio" class="white-bg section">
+    <div class= "main-content grid-gallery ">
+        <h5>Portifólio</h5>
+        <p>Imagens relacionadas a exercícios no GitHub - Clique sobre a imagem</p>
+    <div class=   "grid-gallery-content">
+         
+        <div class="gallery-img "><a id="githubLink"  href="https://github.com/LucasSimoesDEV/tabuada"  target="_blank"><img src="./img/tabuada.jpg" alt=""></a></div>
+        <div class="gallery-img "><a href="https://github.com/LucasSimoesDEV/Analisador-de-numeros" target="_blank"><img src="./img/analisador.jpg" alt=""></a></div>
+        <div class="gallery-img"><a href="https://github.com/LucasSimoesDEV/Google-glass" rel="nofollow" target="_blank"><img src="./img/google-glass.jpg" alt=""></a></div>
+        <div class="gallery-img "><a href="https://github.com/LucasSimoesDEV/Contagem" target="_blank"><img src="./img/contagem.jpg" alt="imagem de projetos"></a></div>
+        <div class="gallery-img"><a href="https://github.com/LucasSimoesDEV/hora-do-dia"  target="_blank"><img src="./img/hora-dia.jpg" alt=""></a></div>
+    </div> 
+</div>
+
+ </section>
+ <section id="Contato" class="main-bg section">
+
+
+    <div class="main-content intro-content grid-contato">
+        <div class="intro-text-content ">
+         <h5>Contate-me</h5>
+         <p>Busco uma oportunidade de Estágio na área em que sonho trabalhar.<br>
+         Estou aberto a contato e entrevistas.
+         </p>
+         <p class="gmail"> E-mail: lucassimoes179@gmail.com</p>
+        </div>
+    
+         <div class="intro-img" ><img src="./img/contato.svg" alt="">
+         </div>
+
+           <div class=" form-contato">
+           <form action="GET" name="contato" data-netlify="true" >
+             <fieldset class="form-grid"> 
+                <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="name" id="nome"  name="Escreva seu nome" placeholder="Ex: Lucas Simões" maxlength="30" minlength="10">
+            </div>
+            <div class="form-group">
+                <label for="email"> E-mail</label>
+                <input type="email" id="email" name="Digite seu E-mail" placeholder="exemple@email.com" maxlength="30" minlength="10">
+             </div>
+             <div class=" form-group full-width">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" maxlength="500" cols="30" rows="5" placeholder="Até 500 Letras"> </textarea>
+             </div>
+              <div class="form-group"><button type="submit"> Enviar mensagem</button></div>
+           
+        </fieldset>
+        </form>
+        </div>
+    </div>
+ </section>
+ <footer> <div class="main-footer">
+   <ul>
+    <li> <a target="_blank" href="https://www.instagram.com/lucastranho/"><img src="./img/instagram.png" alt="logo Intagram"></a>
+    </li>
+    <li> <a  target="_blank" href="https://www.linkedin.com/in/lucas-simoes-4b3b37232/"><img src="./img/Linkedin.png" alt="logo Linkedin"></a>
+    </li>
+    <li><a  target="_blank" href="https://github.com/LucasSimoesDEV"><img src="./img/gitHub.png" alt="logo GitHub"></a>
+    </li>
+    </ul>
+    <div class="copy">
+    <p>&copy;Lucas Simões</p>
+</div>
+</div>
+   
+
+ </footer>
+ 
+    
+</body>
+</html>
