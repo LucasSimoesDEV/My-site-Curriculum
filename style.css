@@ -458,6 +458,12 @@ body .full-width{
         font-size: 2.5rem ;
         
     }
+    .conhecimento-content h5 {
+        font-size: 2rem;
+    }
+    .conhecimento-content h5::before{
+        font-size: 3.5rem;
+    }
     .conhecimento-content{
         max-width: 400px;
         gap: var(--gap);
