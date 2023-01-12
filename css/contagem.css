@@ -42,3 +42,9 @@ footer{
     text-align: center;
     font-style: italic;
 }
+@media(max-width:500px){
+    section{
+        max-width: 400px;
+        height: auto;
+    }
+}
